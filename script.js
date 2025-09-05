@@ -203,11 +203,11 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
 function downloadCV1() {
   // Path to your PDF file in the project folder
-  const pdfPath = "resource/Pasn Abeywardhna.pdf";  // Adjust path as needed
+  const pdfPath = "resource/Pasn Abeywardhna.pdf"; // Adjust path as needed
   // Create a link element
   const a = document.createElement("a");
   a.href = pdfPath;
-  a.download = "Pasn Abeywardhna.pdf"; // Name for the downloaded file
+  a.download = "Pasn_Abeywardhna.pdf"; // Name for the downloaded file
   a.target = "_blank"; // Optional: open in new tab if direct download fails
 
   // Trigger the download
