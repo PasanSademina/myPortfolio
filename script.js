@@ -203,7 +203,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
 function downloadCV1() {
   // Path to your PDF file in the project folder
-  const pdfPath = "psn.pdf"; // Adjust path as needed
+  const pdfPath = "resource/Pasn Abeywardhna.pdf";  // Adjust path as needed
   // Create a link element
   const a = document.createElement("a");
   a.href = pdfPath;
