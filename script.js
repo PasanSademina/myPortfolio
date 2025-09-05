@@ -176,7 +176,7 @@ const downloadCV = document.getElementById("downloadCV");
 downloadCV?.addEventListener("click", () => {
   // Create a simple CV download - in production, you'd link to an actual PDF
   const link = document.createElement("a");
-  link.href = "#"; // Replace with actual CV file path
+  link.href = "resource/Pasn Abeywardhna.pdf"; // Replace with actual CV file path
   link.download = "Pasan_Abeywardhna_CV.pdf";
   link.click();
 
