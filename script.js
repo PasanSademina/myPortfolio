@@ -207,7 +207,7 @@ function downloadCV1() {
   // Create a link element
   const a = document.createElement("a");
   a.href = pdfPath;
-  a.download = "psn.pdf"; // Name for the downloaded file
+  a.download = "Pasn Abeywardhna.pdf"; // Name for the downloaded file
   a.target = "_blank"; // Optional: open in new tab if direct download fails
 
   // Trigger the download
